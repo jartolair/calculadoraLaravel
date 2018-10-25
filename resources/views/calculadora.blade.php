@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>Calculadora de {{$nombre}}</title>
+	 <link rel="stylesheet" type="text/css" href="{{url('assets/css/bootstrap.min.css')}}"/>
+	 
 </head>
 <body>
 	<h1>Calculadora de {{$nombre}}</h1>
@@ -30,6 +32,6 @@
 	@endif
 
 @endif
-
+<script src="{{url('assets/js/components/bootstrap.js')}}"></script>
 </body>
 </html>
